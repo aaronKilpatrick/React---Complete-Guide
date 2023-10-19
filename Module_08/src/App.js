@@ -16,7 +16,6 @@ const App = () => {
     setCourseGoals((prevGoals) => {
       const updatedGoals = [...prevGoals];
       updatedGoals.unshift({ text: enteredText, id: uniqid('goals-') });
-      // updatedGoals.unshift({ text: enteredText, id: "goals-1" });
       return updatedGoals;
     });
   };
