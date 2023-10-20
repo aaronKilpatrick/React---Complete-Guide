@@ -1,0 +1,39 @@
+@import '../assets/styles/variables';
+
+.error {
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    .modal { 
+        left: 50%;
+        position: absolute;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        
+        header {
+            background-color: $secondaryColour;
+            border-radius: $borderRadius $borderRadius 0 0;
+            color: $white;
+            padding: 1rem;
+            
+            h2 {
+                margin: 0;
+            }
+        }
+
+        .content {
+            text-align: right;
+            padding: 1rem;
+            
+            p {
+                margin-bottom: 2.5rem;
+                text-align: left;
+            }
+        }
+    }
+}

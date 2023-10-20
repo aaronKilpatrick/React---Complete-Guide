@@ -1,0 +1,23 @@
+@import '../assets/styles/variables';
+
+.userList {
+    padding: 1rem;
+
+    ul {
+        margin: 0;
+        padding-left: 0;
+    }
+    
+    li {
+        border: 1px solid $outline;
+        border-radius: $borderRadius;
+        font-weight: 600;
+        list-style-type: none;
+        padding: 0.5rem 0.75rem;
+
+        &:not(:last-of-type) {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+@import '../assets/styles/variables';
+
+.button {
+    background-color: $secondaryColour;
+    border: none;
+    border-radius: $borderRadius;
+    color: $white;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding: 0.3rem 1.25rem;
+    transition: background-color 0.5s;
+
+    &:hover {
+        background-color: darken($secondaryColour, 10%);
+    }
+}
