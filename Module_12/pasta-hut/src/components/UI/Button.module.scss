@@ -1,0 +1,13 @@
+@import '../../assets/styles/main.scss';
+
+button {
+    background-color: $primary;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.4rem 2.2rem;
+}

@@ -1,0 +1,32 @@
+@import '../assets/styles/main';
+
+.banner {
+    img {
+      width: 100%;
+      height: 30rem;
+      object-fit: cover;
+    }
+  }
+  
+
+.bannerMessage {
+    background-color: white;
+    position: relative;
+    margin-top: -7rem;
+    width: 45rem;
+
+    text-align: center;
+    h2 {
+        color: $primary;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    p {
+        font-weight: 500;
+
+        &:last-of-type {
+            margin: 0;
+        }
+    }
+}

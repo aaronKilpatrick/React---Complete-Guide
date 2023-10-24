@@ -1,0 +1,51 @@
+@import '../assets/styles/main';
+
+.menu-item {
+    border-bottom: 1px solid $outline;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+
+    &:last-of-type {
+        border: none;
+    }
+
+    p {
+        margin: 0 0 3px;
+    }
+
+    &__heading {
+        font-size: 1.2rem;
+        margin: 0 0 3px;
+    }
+
+    &__price {
+        color: $primary;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    &__add-container {
+        text-align: right;
+        label {
+            font-weight: 700;
+            margin-right: 0.5rem;
+        }
+        
+        input {
+            padding: 5px 4px;
+            width: 2rem;
+            border: 1px solid $outline;
+            border-radius: 5px;
+
+            &:focus {
+                border: 1px solid $primary; 
+            }
+        }
+
+        .add-to-cart {
+            margin-left: auto;
+            margin-top: 10px;
+        }
+    }
+}
