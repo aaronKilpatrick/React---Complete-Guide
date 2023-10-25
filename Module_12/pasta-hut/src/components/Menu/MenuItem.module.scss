@@ -1,0 +1,27 @@
+@import '../../assets/styles/main';
+
+.menu-item {
+    border-bottom: 1px solid $outline;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+
+    &:last-of-type {
+        border: none;
+    }
+
+    p {
+        margin: 0 0 3px;
+    }
+
+    &__heading {
+        font-size: 1.2rem;
+        margin: 0 0 3px;
+    }
+
+    &__price {
+        color: $primary;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}

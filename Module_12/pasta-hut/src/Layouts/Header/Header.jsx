@@ -4,12 +4,15 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 import styles from './Header.module.scss';
 
-function Header() {
+function Header({ onOpenCart }) {
   return (
     <header>
       <div className={styles.container}>
         <h1>PastaHut</h1>
-        <button className={styles.cart}>
+        <button
+          className={styles.cart}
+          onClick={onOpenCart}
+        >
           <span className={styles.cart__icon}>
             <FaShoppingCart />
           </span>

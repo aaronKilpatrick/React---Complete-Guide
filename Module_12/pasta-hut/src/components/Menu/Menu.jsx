@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Menu.module.scss';
 
-import Card from './UI/Card';
+import Card from '../UI/Card';
 import MenuItem from './MenuItem';
 
 const MENU = [

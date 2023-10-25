@@ -1,0 +1,18 @@
+@import '../../assets/styles/main.scss';
+
+
+label {
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+input {
+  padding: 5px 4px;
+  width: 2rem;
+  border: 1px solid $outline;
+  border-radius: 5px;
+
+  &:focus {
+    border: 1px solid $primary;
+  }
+}

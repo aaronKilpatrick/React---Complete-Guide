@@ -2,9 +2,9 @@ import React from 'react';
 
 import styles from './Banner.module.scss';
 
-import Card from './UI/Card';
+import Card from '../UI/Card';
 
-import heroImage from '../assets/images/hero-image.jpg';
+import heroImage from '../../assets/images/hero-image.jpg';
 
 function Banner() {
   return (
