@@ -1,0 +1,21 @@
+#overlay {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+        svg {
+            font-size: 2.5rem;
+            color: rgba(255, 255, 255, .6);
+        }
+    }
+}
