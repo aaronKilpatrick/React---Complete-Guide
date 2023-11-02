@@ -1,6 +1,7 @@
 .DS_STORE
 node_modules
 CompleteGuideReact
+example-projects
 scripts/flow/*/.flowconfig
 .flowconfig
 *~
